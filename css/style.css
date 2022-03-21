@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:wght@300;400&display=swap');
+
+:root{
+    --primary: rgb(4, 99, 99);
+    --dark: #21252f;
+    --body: #888;
+    --box-shadow: 0 8px 22px rgba(0,0,0,0.1 );
+}
+
+body{
+    font-family: Poppins, "sans-serif";
+    line-height: 1.7;
+    color: var(--body);
+    background-color: #f6f6f6;
+    
+}
+
+
+h1,h2,h3,h4,h5,h6, .display-5{
+    color: var(--primary);
+    font-weight: 600;
+}
+
+a{
+    color: var(--primary);
+    text-decoration: none;
+}
+.navbar{
+    box-shadow: var(--box-shadow);
+}
+.navbar .logo{
+    width: 70%;
+    font-size: 25px;
+}
+.navbar .nav-link{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hero{
+    background-image: url("https://www.cowin.gov.in/newmodibannerfor900screen.89047ee9ede572c53c65.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+.hero::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21,20,51,0.3);
+}
+
+section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #edffff;
+}
+
+.steps-block{
+    background-color: var(--primary);
+    width:100%;
+}
+.block{
+    width: 100%;
+}
+.text{
+    color: var(--primary);
+    margin-bottom: 80px;
+}
+ol.verify-steps{
+    list-style: none;
+    counter-reset: item;
+    padding: 0;
+}
+.verify-steps li{
+    counter-increment: item;
+    margin-bottom: 20px;
+}
+.verify-steps li::before{
+    margin-right: 10px;
+    content: counter(item);
+    background: #dce0e0;
+    border-radius: 100%;
+    border-color: #e6e6e6;
+    box-shadow: 0 6px 20px rgb(193 207 217 / 20%);
+    width: 1.5em;
+    text-align: center;
+    display: inline-block;
+}
+ul.success-verify{
+    list-style: none;
+    counter-reset: item;
+    padding-left: 50px;
+    padding-top: 2px;
+}
+.success-verify ul{
+    counter-increment: item;
+    margin-bottom: 5px;
+}
+.success-verify li::before{
+    margin-right: 10px;
+    content: "- ";
+    background: #dce0e0;
+    border-radius: 100%;
+    border-color: #e6e6e6;
+    box-shadow: 0 6px 20px rgb(193 207 217 / 20%);
+    width: 1.5em;
+    text-align: center;
+    display: inline-block;
+}
+.block-center{
+    box-shadow: 0 10px 42px rgba(8, 8, 8, 0.1); 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    width: 60%;
+    height: 500px;
+    margin-left: 250px;
+}
+.block-center-nvc{
+    box-shadow: 0 10px 42px rgba(8, 8, 8, 0.1); 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    margin-left: 20px;
+}
+.form-control{
+    width: 30%;
+    text-align: center;
+    margin-left: 440px;
+    box-shadow: 0 6px 20px rgb(193 207 217);
+}
+.btn-primary ms-lg-3{
+    width: 30%;
+    text-align: center;
+    margin-left: 460px;
+    box-shadow: 0 6px 20px rgb(193 207 217);
+
+}
+.badge-panel{
+    width: 326px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.badge{
+    background-color: rgb(19, 68, 75);
+    height: 270px;
+    color: #e6e6e6;
+}
+.badge h6{
+    color: #e6e6e6;
+}
+.main-card{
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 550px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 1px rgb(0 0 0 / 25%);
+    border: 0px solid rgba(0,0,0,.125);
+}
+.partner-card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 16%);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    max-height: 100px;
+    min-height: 100px; 
+    width: 190px;
+    margin-right: 120px;
+}
+
+.imga1{
+    border-radius: 10px;
+    height:70px;
+    width:150px;
+}
+.imga2{
+    border-radius: 10px;
+    height: 70px;
+    width: 110px;
+}
+.imga3{
+    border-radius: 10px;
+    height: 30%;
+    width: 50%;
+}
+.partner-logo-holder {
+    margin-left: 40px;
+}
+.partner-logo-holder .row{
+    margin-left: 70px;
+}
+.row{
+    margin-left: 10px;
+}
+
+.table{
+    height:400px;
+    width:100%;
+    overflow-y: auto;
+}
+.realtable{
+  
+    border: 1px solid rgb(3, 3, 3);
+    
+}
+td,th{
+    border-right: solid 1px  rgb(3, 3, 3); 
+    border-left: solid 1px  rgb(3, 3, 3);
+  }
+.box{
+text-align: left;
+  background-color: #f6f6f6;
+  width: 90%;
+  border: 2px solid rgb(5, 5, 5);
+  padding: 50px;
+  margin: 50px;
+  margin-left: 70px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 16%);
+  border-radius: 10px;
+}
+.boxlike{
+  text-align: left;
+  background: #f6f6f6;
+  width: 90%;
+  border: 1px solid rgb(5, 5, 5);
+  padding: 10px;
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 16%);
+  border-radius: 10px;
+}
