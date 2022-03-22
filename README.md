@@ -1,7 +1,7 @@
 # Covax-Using-API
 Hey Everyone!
 This is my first Project
-*Co-Vax Vaccine Tracking System is an API Based application.*
+*Co-Vax Vaccine Tracking System an API Based and Database Based application.*
 
 You can visit on Cowin Public Api website => https://apisetu.gov.in/api/cowin
 
