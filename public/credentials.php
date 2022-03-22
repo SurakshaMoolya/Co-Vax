@@ -1,4 +1,4 @@
 <?php
- define("EMAILID",'moolyasuraksha77@gmail.com');
- define("PASSWORD",'mera.password');
+ define("EMAILID",'Your EmailID');
+ define("PASSWORD",'Your Password');
 ?>
